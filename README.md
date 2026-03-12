@@ -2,7 +2,7 @@
 
 **Founder of [Hermes Labs](https://hermes-labs.ai) | AI Safety Infrastructure**
 
-I study how language models fail, mislead, and break — then build tools from what I find.
+I study how language models fail — then build tools from what I find.
 
 [![X/Twitter](https://img.shields.io/badge/X-%40rolibosch-black?logo=x)](https://x.com/rolibosch)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rolando--bosch-blue?logo=linkedin)](https://www.linkedin.com/in/rolando-bosch/)
@@ -17,7 +17,8 @@ I study how language models fail, mislead, and break — then build tools from w
 | [**Little Canary**](https://github.com/roli-lpci/little-canary) | Prompt injection detection via sacrificial LLM probes. **99% detection, 0% false positives** on TensorTrust (400 attacks). | `pip install little-canary` |
 | [**lintlang**](https://github.com/roli-lpci/lintlang) | Static linter for AI agent configs, tool descriptions & system prompts. H1–H7 taxonomy. Zero LLM calls. | `pip install lintlang` |
 | [**Suy Sideguy**](https://github.com/roli-lpci/suy-sideguy) | Runtime safety guard for autonomous agents. Monitors process, file & network behavior. Enforces policy. | `pip install suy-sideguy` |
-| [**Quick Gate**](https://github.com/roli-lpci/quick-gate-js) | Deterministic CI quality gate with bounded auto-repair (JS + Python). | `npm install quick-gate-js` |
+| [**zer0dex**](https://github.com/roli-lpci/zer0dex) | Dual-layer memory for AI agents. Compressed index + vector store. **91% recall**, beats full RAG. | `pip install zer0dex` |
+| [**Quick Gate**](https://github.com/roli-lpci/quick-gate-js) | Deterministic CI quality gate with bounded auto-repair (JS + Python). | `npm install quick-gate` |
 
 ---
 

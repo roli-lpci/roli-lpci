@@ -6,6 +6,7 @@ I study how language models fail — then build tools from what I find.
 
 [![X/Twitter](https://img.shields.io/badge/X-%40rolibosch-black?logo=x)](https://x.com/rolibosch)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rolando--bosch-blue?logo=linkedin)](https://www.linkedin.com/in/rolando-bosch/)
+[![Bluesky](https://img.shields.io/badge/Bluesky-@hermesit0-0285FF?logo=bluesky)](https://bsky.app/profile/hermesit0.bsky.social)
 [![Substack](https://img.shields.io/badge/Substack-LPCI-orange?logo=substack)](https://lpci.substack.com/)
 
 ---
@@ -25,8 +26,8 @@ I study how language models fail — then build tools from what I find.
 ## Research
 
 - **1,500+ controlled adversarial experiments** across GPT-4o, GPT-5.2, Claude Haiku 4.5
-- **[Asymmetric Burden of Proof](https://hermes-labs.ai/papers/asymmetric-burden-of-proof.pdf)** — LLMs systematically discount negative findings: **19.6–56.7 percentage-point gaps** across 23/24 test conditions
-- **[Taxonomy of Epistemic Failure Modes](https://hermes-labs.ai/papers/taxonomy-epistemic-failure-modes.pdf)** — 4 structural failure modes in LLM reasoning: sycophancy, null-result bias, hermeneutic drift, intent exceptionalism
+- **[Asymmetric Burden of Proof](https://doi.org/10.5281/zenodo.18867694)** — LLMs systematically discount negative findings: **19.6–56.7 percentage-point gaps** across 23/24 test conditions
+- **[Taxonomy of Epistemic Failure Modes](https://doi.org/10.5281/zenodo.18867695)** — 7 structural failure modes in LLM reasoning: null-result asymmetry, source-status credibility bias, agency dissolution, performative hedging, constraint evasion, silent instruction relaxation, controversy-truth conflation
 - **3 US patent filings**
 
 ---
@@ -54,3 +55,4 @@ Philosophy of language (Wittgenstein, Gadamer, Heidegger) applied to AI systems.
 ---
 
 [hermes-labs.ai](https://hermes-labs.ai) · [littlecanary.ai](https://littlecanary.ai) · [Substack](https://lpci.substack.com/) · [YouTube](https://www.youtube.com/@Roli_LPCI)
+

@@ -6,7 +6,6 @@ I study how language models fail — then build tools from what I find.
 
 [![X/Twitter](https://img.shields.io/badge/X-%40rolibosch-black?logo=x)](https://x.com/rolibosch)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rolando--bosch-blue?logo=linkedin)](https://www.linkedin.com/in/rolando-bosch/)
-[![Bluesky](https://img.shields.io/badge/Bluesky-@hermesit0-0285FF?logo=bluesky)](https://bsky.app/profile/hermesit0.bsky.social)
 [![Substack](https://img.shields.io/badge/Substack-LPCI-orange?logo=substack)](https://lpci.substack.com/)
 
 ---

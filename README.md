@@ -24,7 +24,7 @@ Two public papers, both on Zenodo with DOIs:
 - **[The Asymmetric Burden of Proof](https://doi.org/10.5281/zenodo.18867694)** — LLMs systematically discount null findings. Matched-vignette benchmark across GPT-4o, GPT-5.2 Thinking, and Claude Haiku 4.5: 19.6–56.7 percentage-point probability gaps in 23 of 24 test conditions.
 - **[A Taxonomy of Epistemic Failure Modes in LLMs](https://doi.org/10.5281/zenodo.19042469)** — Seven structural failure modes: null-result asymmetry, source-status credibility bias, agency dissolution, performative hedging, constraint evasion, silent instruction relaxation, controversy-truth conflation.
 
-1,500+ controlled adversarial evaluations feeding this work. 3 US patent filings in related areas.
+1,500+ controlled adversarial evaluations feeding this work. 5 US patent filings — 1 non-provisional pending, 4 provisional (Little Canary behavioral-compromise detection, Signal Fingerprint, QuickThink, Scaffold Independence).
 
 ---
 

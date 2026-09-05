@@ -32,8 +32,8 @@ Two public papers, both on Zenodo with DOIs:
 
 **26 PRs merged upstream.** Four landed in major AI framework repos:
 
-- [**LangChain #35544**](https://github.com/langchain-ai/langchain/pull/35544) — dropped a forced `tool_choice` injection that broke Claude extended-thinking mode
-- [**Microsoft Semantic Kernel #13610**](https://github.com/microsoft/semantic-kernel/pull/13610) — fixed the truncation reducer silently deleting system prompts
+- [**LangChain #35544**](https://github.com/langchain-ai/langchain/pull/35544) ([langchain-anthropic==1.3.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.5)) — dropped a forced `tool_choice` injection that broke Claude extended-thinking mode
+- [**Microsoft Semantic Kernel #13610**](https://github.com/microsoft/semantic-kernel/pull/13610) ([python-1.41.1](https://github.com/microsoft/semantic-kernel/releases/tag/python-1.41.1)) — fixed the truncation reducer silently deleting system prompts
 - [**PyTorch Ignite #3591**](https://github.com/pytorch/ignite/pull/3591) — typing modernization in `tqdm_logger`
 - [**Optuna #6478**](https://github.com/optuna/optuna/pull/6478) — simplified a Union alias under `TYPE_CHECKING`
 

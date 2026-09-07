@@ -1,30 +1,36 @@
 # Roli Bosch
 
-**Founder, [Hermes Labs](https://hermes-labs.ai) · AI assurance infrastructure for high-stakes systems**
+**Founder, [Hermes Labs](https://hermes-labs.ai) · Research and engineering on the language layer of LLM systems and agents**
 
-I study how language models fail — then build tools from what I find.
+I study how language models fail, mislead, and break, then build tools from what I find.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rolando--bosch-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rolando-bosch/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rolibosch-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rolibosch/)
 [![X](https://img.shields.io/badge/X-%40rolibosch-000000?logo=x&logoColor=white)](https://x.com/rolibosch)
-[![Substack](https://img.shields.io/badge/Substack-LPCI-FF6719?logo=substack&logoColor=white)](https://lpci.substack.com/)
+[![Substack](https://img.shields.io/badge/Substack-rolibosch-FF6719?logo=substack&logoColor=white)](https://rolibosch.substack.com/)
 [![Site](https://img.shields.io/badge/hermes--labs.ai-visit-4F46E5)](https://hermes-labs.ai)
 
 ---
 
 ## What I work on
 
-Hermes Labs studies structural reasoning failures in large language models and builds audit, runtime, and evidence tooling from what the research surfaces. The thesis: high-stakes AI deployments need a layer between model behavior and enterprise risk that isn't policy theater.
+My background is philosophy of language. Instructions, tool descriptions, retrieved passages, memory summaries, and grading rubrics are all text, and text changes meaning when it is compressed, retrieved, handed off, or rewritten. A history reducer in Microsoft Semantic Kernel was treating the system prompt as one more message to trim, so the instruction that governs a conversation quietly disappeared mid-run. That is an interpretation error written in code. I fixed it upstream. The same pattern shows up wherever language changes hands in a system.
+
+Hermes Labs is an independent AI research and engineering lab built around that layer. We study how it breaks, build tools that catch it, and integrate working systems for teams shipping LLM applications and agents.
 
 ---
 
 ## Research
 
-Two public papers, both on Zenodo with DOIs:
+Papers and technical notes, each with a DOI, each stating what its evidence does and does not support:
 
-- **[The Asymmetric Burden of Proof](https://doi.org/10.5281/zenodo.18867694)** — LLMs systematically discount null findings. Matched-vignette benchmark across GPT-4o, GPT-5.2 Thinking, and Claude Haiku 4.5: 19.6–56.7 percentage-point probability gaps in 23 of 24 test conditions.
-- **[A Taxonomy of Epistemic Failure Modes in LLMs](https://doi.org/10.5281/zenodo.19042469)** — Seven structural failure modes: null-result asymmetry, source-status credibility bias, agency dissolution, performative hedging, constraint evasion, silent instruction relaxation, controversy-truth conflation.
+- [Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions](https://doi.org/10.5281/zenodo.21817243)
+- [Behavioral Canarying for Prompt Injection](https://doi.org/10.5281/zenodo.21818564)
+- [The Generative Horizon](https://doi.org/10.5281/zenodo.21659634)
+- [Precise Records, Unstable Meanings](https://doi.org/10.5281/zenodo.21652317)
+- [A Taxonomy of Epistemic Failure Modes in Large Language Models](https://doi.org/10.5281/zenodo.19042469)
+- [The Asymmetric Burden of Proof](https://doi.org/10.5281/zenodo.18867694)
 
-1,500+ controlled adversarial evaluations feeding this work. 5 US patent filings — 1 non-provisional pending, 4 provisional.
+Abstracts, hosted copies, and citation exports: [hermes-labs.ai/research](https://hermes-labs.ai/research)
 
 ---
 
@@ -53,14 +59,14 @@ All under the Hermes Labs org: **[@hermes-labs-ai](https://github.com/hermes-lab
 
 | Tool | What it does | Install |
 |------|---|---|
-| [**lintlang**](https://github.com/hermes-labs-ai/lintlang) | Static linter for AI agent configs, tool descriptions, system prompts. Zero LLM calls. | `pip install lintlang` |
-| [**little-canary**](https://github.com/hermes-labs-ai/little-canary) | Prompt injection detection via sacrificial canary-model probes. | `pip install little-canary` |
-| [**zer0dex**](https://github.com/hermes-labs-ai/zer0dex) | Dual-layer memory for AI agents — compressed index plus vector retrieval. | `pip install zer0dex` |
-| [**claude-router**](https://github.com/hermes-labs-ai/claude-router) | Routes prompts to the right Claude tier via local embeddings. | `pip install claude-router` |
-| [**suy-sideguy**](https://github.com/hermes-labs-ai/suy-sideguy) | Runtime policy guard for autonomous agents. | `pip install suy-sideguy` |
-| [**agent-convergence-scorer**](https://github.com/hermes-labs-ai/agent-convergence-scorer) | Score how similar N agent outputs are. | `pip install agent-convergence-scorer` |
+| [**lintlang**](https://github.com/hermes-labs-ai/lintlang) | Static linter for agent configs, tool descriptions, and system prompts. No LLM call. | `pip install lintlang` |
+| [**fidelis**](https://github.com/hermes-labs-ai/fidelis) | Fidelis Memory: agent memory that returns your original passages verbatim. | `pip install fidelis-memory` |
+| [**little-canary**](https://github.com/hermes-labs-ai/little-canary) | Prompt-injection detection through sacrificial canary-model probes. | `pip install little-canary` |
+| [**agent-gorgon**](https://github.com/hermes-labs-ai/agent-gorgon) | Runtime policy guard for autonomous agents, with forensic evidence. | `pip install agent-gorgon` |
+| [**hermeneutic**](https://github.com/hermes-labs-ai/hermeneutic) | Mines corrections from agent chat logs and gates the next response. | `pip install hermeneutic` |
+| [**langstate**](https://github.com/hermes-labs-ai/langstate) | Inspectable context compression for LLM conversations. | `pip install langstate` |
 
-Full catalog: [github.com/hermes-labs-ai](https://github.com/hermes-labs-ai)
+Full catalog with evidence boundaries: [hermes-labs.ai/open-source](https://hermes-labs.ai/open-source)
 
 ---
 
@@ -72,4 +78,4 @@ Philosophy of language (Wittgenstein, Gadamer, Heidegger) applied to AI systems.
 
 ---
 
-*[hermes-labs.ai](https://hermes-labs.ai) · [rbosch@lpci.ai](mailto:rbosch@lpci.ai)*
+*[hermes-labs.ai](https://hermes-labs.ai) · [roli@hermes-labs.ai](mailto:roli@hermes-labs.ai)*

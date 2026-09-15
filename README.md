@@ -8,6 +8,11 @@ I study how language models fail, mislead, and break, then build tools from what
 [![X](https://img.shields.io/badge/X-%40rolibosch-000000?logo=x&logoColor=white)](https://x.com/rolibosch)
 [![Substack](https://img.shields.io/badge/Substack-rolibosch-FF6719?logo=substack&logoColor=white)](https://rolibosch.substack.com/)
 [![Site](https://img.shields.io/badge/hermes--labs.ai-visit-4F46E5)](https://hermes-labs.ai)
+[![Hermes Labs on GitHub](https://img.shields.io/badge/GitHub-%40hermes--labs--ai-181717?logo=github&logoColor=white)](https://github.com/hermes-labs-ai)
+
+**Start here:** [Hermes Labs on GitHub](https://github.com/hermes-labs-ai) · [hermes-labs.ai](https://hermes-labs.ai) · [Open-source catalog](https://hermes-labs.ai/open-source) · [Upstream contributions](https://hermes-labs.ai/open-source/contributions) · [Research](https://hermes-labs.ai/research)
+
+Work attributed to Hermes Labs may be executed through human-directed autonomous engineering infrastructure. Rolando Bosch is the responsible human contributor and authorizes publication from this account.
 
 ---
 

@@ -32,9 +32,10 @@ Full catalog with evidence boundaries: [hermes-labs.ai/open-source](https://herm
 
 ## Evidence in the ecosystem
 
-Hermes Labs has **50+ merged external contributions and ecosystem PRs** across AI
-frameworks, agent infrastructure, developer tooling, documentation, integrations, and
-public technical systems. The [public contribution
+As of the 29 September 2026 census, Hermes Labs has **93 merged external pull requests**:
+57 code and documentation contributions plus 36 ecosystem and catalog listings, counted
+separately, across AI frameworks, agent infrastructure, developer tooling, documentation,
+integrations, and public technical systems. These figures are dated and will change. The [public contribution
 ledger](https://hermes-labs.ai/open-source/contributions) keeps the categories separate;
 the underlying record is also available as [machine-readable
 JSON](https://hermes-labs.ai/contributions.json).

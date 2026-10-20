@@ -30,43 +30,31 @@ Full catalog with evidence boundaries: [hermes-labs.ai/open-source](https://herm
 
 ---
 
-## Evidence in the ecosystem
+## Contributions beyond Hermes Labs
 
-As of the 29 September 2026 census, Hermes Labs has **93 merged external pull requests**:
-57 code and documentation contributions plus 36 ecosystem and catalog listings, counted
-separately, across AI frameworks, agent infrastructure, developer tooling, documentation,
-integrations, and public technical systems. These figures are dated and will change. The [public contribution
-ledger](https://hermes-labs.ai/open-source/contributions) keeps the categories separate;
-the underlying record is also available as [machine-readable
-JSON](https://hermes-labs.ai/contributions.json).
+<!-- hermes-contributions:start -->
+**71 Upstream Contributions** · **8 Integrations & Adoption outcomes** (as of 2026-10-20).
 
-- **LintLang runs in Character.AI's Larch CI** as an operational lint dependency, documented in [Larch's own linting docs](https://github.com/character-ai/larch/blob/main/docs/linting.md) (scoped to Larch's public repo).
-- **LintLang is a catalog plugin in MegaLinter**, merged upstream as [oxsecurity/megalinter#8899](https://github.com/oxsecurity/megalinter/pull/8899) (2026-09-11); a catalog listing, not an install-count claim.
-- **Independent Gentoo ebuilds for LintLang** are maintained across releases in the [Haven overlay](https://github.com/thehaven/haven-overlay/commit/d052d950b05389fcd7c8f22939033319a5aec348), packaged without our involvement.
-- **zer0dex changed an external team's roadmap**: AllSource [documented](https://github.com/all-source-os/all-source/blob/main/apps/web/content/from-zerodex-to-allsource.mdx) how their architecture moved from zer0dex's pattern to their own system (roadmap influence, not a dependency), and [Mnemosyne](https://github.com/oveku/mnemosyne/pull/3) independently implemented a related approach.
-- **Little Canary's technique was adapted** in [Preflight](https://github.com/DavidMChan/preflight/commit/186ce43c1ce122aba82c1904e777517834d1bc90) with attribution, and named as the closest prior work in [ProxyCanary's manuscript](https://github.com/JucieOvo/ProxyCanary/blob/master/docs/paper_en.md) (a repository-hosted manuscript citation, not peer review).
-- **Hermes Rubric is listed in Inspect AI's extensions gallery** (accepted upstream docs PR, [UKGovernmentBEIS/inspect_ai#5265](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5265), merged 2026-09-09).
-- **A CISA Vulnrichment score correction**: CVE-2026-14216 was stored at CVSS 5.3 against a 6.5 vector; a collaborator confirmed the correction and republication in [cisagov/vulnrichment#333](https://github.com/cisagov/vulnrichment/issues/333) ([case study](https://hermes-labs.ai/case-studies/cisa-vulnrichment-score-consistency)). A scoring correction, not a vulnerability discovery, partnership, or endorsement.
+### Upstream Contributions
 
----
+Engineering and technical documentation accepted by external projects, plus reports that led to implemented upstream fixes.
 
-## Upstream engineering
+- [microsoft/semantic-kernel #13610](https://github.com/microsoft/semantic-kernel/pull/13610) — Preserve the first system/developer message during Python chat-history truncation and handle the target_count=1 boundary. [Case study](https://hermes-labs.ai/case-studies/fixing-semantic-kernel-deleted-system-prompts).
+- [langchain-ai/langchain #35544](https://github.com/langchain-ai/langchain/pull/35544) — Drop forced tool_choice with a warning when Anthropic extended thinking is enabled; preserve auto and unaffected requests. [Case study](https://hermes-labs.ai/case-studies/fixing-langchain-thinking-tools-crash).
+- [microsoft/semantic-kernel #13635](https://github.com/microsoft/semantic-kernel/pull/13635) — Use value equality to avoid duplicate null entries in strict JSON Schema type arrays, with three regression tests. [Case study](https://hermes-labs.ai/case-studies/fixing-semantic-kernel-duplicate-null-schema).
+- [stanfordnlp/dspy #9978](https://github.com/stanfordnlp/dspy/pull/9978) — Reject an empty Evaluate devset with a descriptive ValueError before metric-summary division, with a regression test. [Case study](https://hermes-labs.ai/case-studies/fixing-dspy-empty-devset).
 
-Merged fixes in AI frameworks and agent infrastructure, each with a regression test:
-[Microsoft Semantic Kernel
-#13610](https://github.com/microsoft/semantic-kernel/pull/13610) (a chat-history
-truncation reducer was silently deleting the system prompt), [LangChain
-#35544](https://github.com/langchain-ai/langchain/pull/35544) (dropped a forced
-tool_choice that crashed Anthropic extended-thinking requests), [DSPy
-#9978](https://github.com/stanfordnlp/dspy/pull/9978) (an empty eval devset failed with
-a bare ZeroDivisionError instead of a descriptive one), [crewAI
-#7369](https://github.com/crewAIInc/crewAI/pull/7369) (memory access times were updated
-even when a read was marked read_only; merged 2026-09-15), and [Hindsight
-#4285](https://github.com/vectorize-io/hindsight/pull/4285) (added task-local retain
-suspension to the Python client; merged 2026-09-15). A related [Mem0
-patch](https://github.com/mem0ai/mem0/pull/5250) fixing a Redis
-cosine-distance-to-similarity conversion closed unmerged after a maintainer acknowledged
-the conversion in a broader sweep. It is not a merged contribution.
+### Integrations & Adoption
+
+Working integrations accepted upstream, and independent developers building on our tools and ideas.
+
+- **Promptfoo:** [Hermeneutic wording assertion](https://github.com/promptfoo/promptfoo/pull/10663) and [LintLang prompt-linting recipe](https://github.com/promptfoo/promptfoo/pull/11294).
+- **LintLang in other workflows:** [Character.AI Larch CI](https://github.com/character-ai/larch/blob/ef7ee4b7f946f29fa51981f5422a1a93e83c79a7/.github/workflows/requirements-agent-linters.txt) and [independent Gentoo Haven packaging](https://github.com/thehaven/haven-overlay/tree/fbed4463d4e213a3bce98babbfc72ef78722d255/dev-util/lintlang).
+- **Little Canary in other projects:** [Orbit's agent adapter](https://github.com/samvitgersappa/Orbit/pull/1) and [Preflight's independently adapted inspection techniques](https://github.com/DavidMChan/preflight/commit/186ce43c1ce122aba82c1904e777517834d1bc90).
+- **zer0dex-inspired memory architecture:** independent implementations in [AllSource](https://github.com/all-source-os/all-source/blob/5d5cd154a165ee3bc1c1d95c47559f0be22ccf78/apps/web/content/from-zerodex-to-allsource.mdx) and [Mnemosyne](https://github.com/oveku/mnemosyne/pull/3).
+
+[Full record and attribution](https://hermes-labs.ai/open-source/contributions) · [Structured ledger](https://hermes-labs.ai/contributions.json) · Verified 2026-10-20. Listings and pending submissions are excluded from these totals.
+<!-- hermes-contributions:end -->
 
 ---
 

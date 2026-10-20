@@ -33,7 +33,7 @@ Full catalog with evidence boundaries: [hermes-labs.ai/open-source](https://herm
 ## Contributions beyond Hermes Labs
 
 <!-- hermes-contributions:start -->
-**71 Upstream Contributions** · **8 Integrations & Adoption outcomes** (as of 2026-10-20).
+**71 Upstream Contributions** · **6 Integrations & Adoption outcomes** (as of 2026-10-20).
 
 ### Upstream Contributions
 
@@ -48,7 +48,6 @@ Engineering and technical documentation accepted by external projects, plus repo
 
 Working integrations accepted upstream, and independent developers building on our tools and ideas.
 
-- **Promptfoo:** [Hermeneutic wording assertion](https://github.com/promptfoo/promptfoo/pull/10663) and [LintLang prompt-linting recipe](https://github.com/promptfoo/promptfoo/pull/11294).
 - **LintLang in other workflows:** [Character.AI Larch CI](https://github.com/character-ai/larch/blob/ef7ee4b7f946f29fa51981f5422a1a93e83c79a7/.github/workflows/requirements-agent-linters.txt) and [independent Gentoo Haven packaging](https://github.com/thehaven/haven-overlay/tree/fbed4463d4e213a3bce98babbfc72ef78722d255/dev-util/lintlang).
 - **Little Canary in other projects:** [Orbit's agent adapter](https://github.com/samvitgersappa/Orbit/pull/1) and [Preflight's independently adapted inspection techniques](https://github.com/DavidMChan/preflight/commit/186ce43c1ce122aba82c1904e777517834d1bc90).
 - **zer0dex-inspired memory architecture:** independent implementations in [AllSource](https://github.com/all-source-os/all-source/blob/5d5cd154a165ee3bc1c1d95c47559f0be22ccf78/apps/web/content/from-zerodex-to-allsource.mdx) and [Mnemosyne](https://github.com/oveku/mnemosyne/pull/3).
